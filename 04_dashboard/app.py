@@ -6,6 +6,7 @@ import plotly.graph_objects as go
 
 # data
 df = pd.read_csv('../01_data/data.csv', delimiter=';')
+# df = pd.read_csv('01_data/data.csv', delimiter=';')
 df['DATE'] = pd.to_datetime(df['DATE'], format='%m/%d/%Y')
 df['DAU'] = df['DAU'].replace({',': ''}, regex=True).astype(float)
 df['Inapp Revenue'] = df['Inapp Revenue'].replace({',': '', r'\$': '', ' ': ''}, regex=True).astype(float)
