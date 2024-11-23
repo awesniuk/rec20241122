@@ -29,12 +29,12 @@ The project contains the following directories and files:
 
 - **03_notebooks/**  # Jupyter notebooks for analysis and SQL queries
   - `analysis.ipynb`  # Data analysis notebook
-  - `sql.ipynb`  # SQL queries notebook
-
+  
 - **04_dashboard/**  # Streamlit application
   - `app.py`  # Main Streamlit app for data visualization
 
 - **05_sql/**  # SQL scripts for data extraction and transformation
+  - `sql.ipynb`  # SQL queries notebook
 
 
 ## Requirements
