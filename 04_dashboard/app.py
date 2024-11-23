@@ -34,7 +34,7 @@ df_revenue_sources = df[['Ad Revenue', 'Inapp Revenue', 'Total Revenue']].sum().
 
 
 # dashboard
-st.title("Huuuge Casino KPI Dashboard")
+st.title("AB Testing for Gamers | KPI Dashboard")
 
 
 # KPIs section with descriptions
